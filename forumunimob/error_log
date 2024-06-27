@@ -1,0 +1,207 @@
+[28-Jan-2023 00:35:32 Europe/Istanbul] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/xcuforum/public_html/forumunimob/login.php on line 3
+[28-Jan-2023 00:35:32 Europe/Istanbul] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/xcuforum/public_html/forumunimob/login.php on line 3
+[28-Jan-2023 00:35:32 Europe/Istanbul] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/xcuforum/public_html/forumunimob/login.php on line 3
+[28-Jan-2023 00:35:32 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/xcuforum/public_html/forumunimob/login.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/login.php on line 8
+[28-Jan-2023 00:35:34 Europe/Istanbul] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/xcuforum/public_html/forumunimob/login.php on line 3
+[28-Jan-2023 00:35:34 Europe/Istanbul] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/xcuforum/public_html/forumunimob/login.php on line 3
+[28-Jan-2023 00:35:34 Europe/Istanbul] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/xcuforum/public_html/forumunimob/login.php on line 3
+[28-Jan-2023 00:35:34 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/xcuforum/public_html/forumunimob/login.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/login.php on line 8
+[28-Jan-2023 00:35:49 Europe/Istanbul] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/xcuforum/public_html/forumunimob/login.php on line 3
+[28-Jan-2023 00:35:49 Europe/Istanbul] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/xcuforum/public_html/forumunimob/login.php on line 3
+[28-Jan-2023 00:35:49 Europe/Istanbul] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/xcuforum/public_html/forumunimob/login.php on line 3
+[28-Jan-2023 00:35:49 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/xcuforum/public_html/forumunimob/login.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/login.php on line 8
+[28-Jan-2023 00:35:50 Europe/Istanbul] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/xcuforum/public_html/forumunimob/login.php on line 3
+[28-Jan-2023 00:35:50 Europe/Istanbul] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/xcuforum/public_html/forumunimob/login.php on line 3
+[28-Jan-2023 00:35:50 Europe/Istanbul] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/xcuforum/public_html/forumunimob/login.php on line 3
+[28-Jan-2023 00:35:50 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/xcuforum/public_html/forumunimob/login.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/login.php on line 8
+[28-Jan-2023 00:35:51 Europe/Istanbul] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/xcuforum/public_html/forumunimob/login.php on line 3
+[28-Jan-2023 00:35:51 Europe/Istanbul] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/xcuforum/public_html/forumunimob/login.php on line 3
+[28-Jan-2023 00:35:51 Europe/Istanbul] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/xcuforum/public_html/forumunimob/login.php on line 3
+[28-Jan-2023 00:35:51 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/xcuforum/public_html/forumunimob/login.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/login.php on line 8
+[28-Jan-2023 01:57:20 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') VALUES(
+                'Gamze Çelik',
+                'gamze',
+          ...' at line 7 in /home/xcuforum/public_html/forumunimob/register.php:51
+Stack trace:
+#0 /home/xcuforum/public_html/forumunimob/register.php(51): PDO->query('INSERT INTO use...')
+#1 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/register.php on line 51
+[28-Jan-2023 01:58:29 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/xcuforum/public_html/forumunimob/register.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/register.php on line 28
+[28-Jan-2023 01:58:33 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/xcuforum/public_html/forumunimob/register.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/register.php on line 28
+[28-Jan-2023 02:01:23 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/xcuforum/public_html/forumunimob/register.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/register.php on line 28
+[28-Jan-2023 02:02:41 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/xcuforum/public_html/forumunimob/register.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/register.php on line 28
+[28-Jan-2023 02:03:14 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/xcuforum/public_html/forumunimob/register.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/register.php on line 28
+[28-Jan-2023 23:04:57 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on array in /home/xcuforum/public_html/forumunimob/login.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/login.php on line 10
+[28-Jan-2023 23:59:41 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 in /home/xcuforum/public_html/forumunimob/register.php:48
+Stack trace:
+#0 /home/xcuforum/public_html/forumunimob/register.php(48): PDO->query('INSERT INTO use...')
+#1 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/register.php on line 48
+[29-Jan-2023 00:00:33 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 in /home/xcuforum/public_html/forumunimob/register.php:48
+Stack trace:
+#0 /home/xcuforum/public_html/forumunimob/register.php(48): PDO->query('INSERT INTO use...')
+#1 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/register.php on line 48
+[29-Jan-2023 00:03:31 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 in /home/xcuforum/public_html/forumunimob/register.php:48
+Stack trace:
+#0 /home/xcuforum/public_html/forumunimob/register.php(48): PDO->query('INSERT INTO use...')
+#1 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/register.php on line 48
+[29-Jan-2023 00:05:47 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 in /home/xcuforum/public_html/forumunimob/register.php:48
+Stack trace:
+#0 /home/xcuforum/public_html/forumunimob/register.php(48): PDO->query('INSERT INTO use...')
+#1 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/register.php on line 48
+[29-Jan-2023 00:06:26 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 in /home/xcuforum/public_html/forumunimob/register.php:48
+Stack trace:
+#0 /home/xcuforum/public_html/forumunimob/register.php(48): PDO->query('INSERT INTO use...')
+#1 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/register.php on line 48
+[29-Jan-2023 00:06:45 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 in /home/xcuforum/public_html/forumunimob/register.php:48
+Stack trace:
+#0 /home/xcuforum/public_html/forumunimob/register.php(48): PDO->query('INSERT INTO use...')
+#1 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/register.php on line 48
+[29-Jan-2023 00:09:16 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 in /home/xcuforum/public_html/forumunimob/register.php:48
+Stack trace:
+#0 /home/xcuforum/public_html/forumunimob/register.php(48): PDO->query('INSERT INTO use...')
+#1 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/register.php on line 48
+[29-Jan-2023 00:11:09 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 in /home/xcuforum/public_html/forumunimob/register.php:48
+Stack trace:
+#0 /home/xcuforum/public_html/forumunimob/register.php(48): PDO->query('INSERT INTO use...')
+#1 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/register.php on line 48
+[29-Jan-2023 00:12:47 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 in /home/xcuforum/public_html/forumunimob/register.php:48
+Stack trace:
+#0 /home/xcuforum/public_html/forumunimob/register.php(48): PDO->query('INSERT INTO use...')
+#1 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/register.php on line 48
+[29-Jan-2023 00:14:35 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 in /home/xcuforum/public_html/forumunimob/register.php:48
+Stack trace:
+#0 /home/xcuforum/public_html/forumunimob/register.php(48): PDO->query('INSERT INTO use...')
+#1 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/register.php on line 48
+[29-Jan-2023 00:17:20 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 in /home/xcuforum/public_html/forumunimob/register.php:48
+Stack trace:
+#0 /home/xcuforum/public_html/forumunimob/register.php(48): PDO->query('INSERT INTO use...')
+#1 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/register.php on line 48
+[29-Jan-2023 00:18:51 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 in /home/xcuforum/public_html/forumunimob/register.php:48
+Stack trace:
+#0 /home/xcuforum/public_html/forumunimob/register.php(48): PDO->query('INSERT INTO use...')
+#1 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/register.php on line 48
+[29-Jan-2023 00:33:02 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 in /home/xcuforum/public_html/forumunimob/register.php:48
+Stack trace:
+#0 /home/xcuforum/public_html/forumunimob/register.php(48): PDO->query('INSERT INTO use...')
+#1 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/register.php on line 48
+[29-Jan-2023 00:34:47 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 in /home/xcuforum/public_html/forumunimob/register.php:48
+Stack trace:
+#0 /home/xcuforum/public_html/forumunimob/register.php(48): PDO->query('INSERT INTO use...')
+#1 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/register.php on line 48
+[29-Jan-2023 14:47:17 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::fetch() in /home/xcuforum/public_html/forumunimob/sifreyenile.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/sifreyenile.php on line 7
+[29-Jan-2023 14:51:07 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::fetch() in /home/xcuforum/public_html/forumunimob/sifreyenile.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/sifreyenile.php on line 7
+[29-Jan-2023 14:51:21 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::fetch() in /home/xcuforum/public_html/forumunimob/sifreyenile.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/sifreyenile.php on line 7
+[29-Jan-2023 14:52:02 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::fetch() in /home/xcuforum/public_html/forumunimob/sifreyenile.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/sifreyenile.php on line 7
+[29-Jan-2023 14:53:22 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::fetch() in /home/xcuforum/public_html/forumunimob/sifreyenile.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/sifreyenile.php on line 7
+[29-Jan-2023 14:57:55 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::fetch() in /home/xcuforum/public_html/forumunimob/sifreyenile.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/sifreyenile.php on line 7
+[29-Jan-2023 14:58:12 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::fetch() in /home/xcuforum/public_html/forumunimob/sifreyenile.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/sifreyenile.php on line 7
+[29-Jan-2023 14:59:33 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::fetch() in /home/xcuforum/public_html/forumunimob/sifreyenile.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/sifreyenile.php on line 7
+[29-Jan-2023 15:00:01 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::fetch() in /home/xcuforum/public_html/forumunimob/sifreyenile.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/sifreyenile.php on line 9
+[29-Jan-2023 15:00:04 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::fetch() in /home/xcuforum/public_html/forumunimob/sifreyenile.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/sifreyenile.php on line 9
+[29-Jan-2023 15:00:24 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::fetch() in /home/xcuforum/public_html/forumunimob/sifreyenile.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/sifreyenile.php on line 9
+[29-Jan-2023 15:00:31 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::fetch() in /home/xcuforum/public_html/forumunimob/sifreyenile.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/sifreyenile.php on line 8
+[29-Jan-2023 15:00:36 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/xcuforum/public_html/forumunimob/sifreyenile.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/sifreyenile.php on line 5
+[29-Jan-2023 18:36:08 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::fetch() in /home/xcuforum/public_html/forumunimob/unibilgiekle.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/unibilgiekle.php on line 10
+[31-Jan-2023 01:45:53 Europe/Istanbul] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/xcuforum/public_html/forumunimob/activeuserinfo.php on line 16
+[31-Jan-2023 01:46:02 Europe/Istanbul] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/xcuforum/public_html/forumunimob/activeuserinfo.php on line 16
+[31-Jan-2023 01:46:10 Europe/Istanbul] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/xcuforum/public_html/forumunimob/activeuserinfo.php on line 16
+[31-Jan-2023 01:46:19 Europe/Istanbul] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/xcuforum/public_html/forumunimob/activeuserinfo.php on line 16
+[25-Mar-2023 20:24:15 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/xcuforum/public_html/forumunimob/activeuserinfo.php:15
+Stack trace:
+#0 /home/xcuforum/public_html/forumunimob/activeuserinfo.php(15): PDO->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/activeuserinfo.php on line 15
+[25-Mar-2023 20:24:17 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/xcuforum/public_html/forumunimob/activeuserinfo.php:15
+Stack trace:
+#0 /home/xcuforum/public_html/forumunimob/activeuserinfo.php(15): PDO->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home/xcuforum/public_html/forumunimob/activeuserinfo.php on line 15

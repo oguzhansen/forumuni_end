@@ -1,0 +1,48 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^forumuni.com [NC]
+RewriteRule ^(.*)$ https://www.forumuni.com/$1 [L,R=301,NC]
+
+ErrorDocument 404 https://forumuni.com/404.php
+
+RewriteRule ^anasayfa?$ index.php
+
+RewriteRule ^gizlilik?$ gizlilik_politikasi.php
+
+RewriteRule ^kullanimkosul?$ kullanimkosul.php
+
+RewriteRule ^kesfet?$ explore.php
+
+RewriteRule ^universite?$ university.php
+
+RewriteRule ^sorucevap?$ sorucevap.php
+
+RewriteRule ^bildirimler?$ bildirimler.php
+
+RewriteRule ^sifreyenile?$ sifreyenile.php
+
+RewriteRule ^girisyap?$ login.php
+
+RewriteRule ^rezlerim?$ rezler.php
+
+RewriteRule ^kayitol?$ register.php
+
+RewriteRule ^profilim?$ profilim.php
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ user.php?username=$1
+
+RewriteCond %{HTTP_USER_AGENT} ^WebWhacker [OR]
+
+RewriteCond %{HTTP_USER_AGENT} ^WebZIP [OR]
+
+RewriteCond %{HTTP_USER_AGENT} ^Wget [OR]
+
+RewriteCond %{HTTP_USER_AGENT} ^Widow [OR]
+
+RewriteCond %{HTTP_USER_AGENT} ^WWWOFFLE [OR]
+
+RewriteCond %{HTTP_USER_AGENT} ^Xaldon\ WebSpider [OR]
+
+RewriteCond %{HTTP_USER_AGENT} ^Zeus

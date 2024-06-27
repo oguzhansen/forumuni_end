@@ -1,0 +1,1210 @@
+*
+{
+    font-family: BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    outline: 0;
+    color: white;
+}
+
+html, body
+{
+    background-color: rgb(44, 52, 63);
+}
+
+
+
+.profilbtn
+{
+    width: 33px; 
+    height: 33px; 
+    background: #5F4B8B; 
+    justify-content: center; 
+    align-items:center; 
+    display: inline-flex;
+}
+
+.profilbtn:hover
+{
+    cursor: pointer;
+    background: #40325e; 
+}
+
+.msgform
+{
+    position: fixed;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    bottom: 60px;
+    width: 50%;
+    background-color: rgb(44, 52, 63);
+}
+
+.chatbox
+{
+    padding: 15px 0;
+    height: 600px;
+    overflow: scroll;
+}
+
+.chatbox::-webkit-scrollbar 
+{
+    display: none;
+}
+
+/* Chat containers */
+.containera 
+{
+    border: 2px solid #22222289;
+    background-color: #22222289;
+    border-radius: 5px;
+    max-width: 75%;
+    min-width: 150px;
+    padding: 10px;
+    margin: 10px 0;
+    float: left;
+    word-wrap:break-word;
+}
+  
+.msgbody
+{
+    width: 100%;
+    display: inline-block;
+}
+
+  /* Darker chat container */
+.darker
+{
+    border-color: #0f4aeea2;
+    max-width: 75%;
+    min-width: 150px;
+    background-color: #0f4aeea2;
+    float: right;
+}
+  
+  /* Clear floats */
+.containera::after 
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+  /* Style images */
+.containera img 
+{
+    float: left;
+    max-width: 30px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+  
+  /* Style time text */
+.time-right 
+{
+    font-size: 12px;
+}
+  
+  /* Style time text */
+.time-left 
+{
+    font-size: 12px;
+}
+
+.userlista
+{
+    border-bottom: 1px solid #536a82;
+}
+
+.userlista:hover
+{
+    background-color: #3b5160;
+    cursor: pointer;
+}
+
+.sozles
+{
+    display: none;
+}
+
+.ads
+{
+    width: 50%;
+}
+
+.mobmen 
+{
+    display: none;
+}
+
+.acilis
+{
+    justify-content: center; 
+    align-items: center; 
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(44, 52, 63);
+    z-index: 998;
+    height: 100%;
+    transition: 2s;
+}
+
+.btn-outline-danger
+{
+    color: white;
+}
+
+.acilisp
+{
+    justify-content: center;
+    margin-left: -20px;
+    padding-top: 40px;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    background-color: rgb(44, 52, 63);
+    z-index: 998;
+    height: 100%;
+    transition: 2s;
+}
+
+.acilisp img
+{
+    width: 30px;
+    height: 30px;
+}
+
+.acilis img
+{
+    width: 35px;
+}
+
+.copyto
+{
+    position: absolute;
+    background-color: #5F4B8B;
+    padding: 5px;
+    top: 25px;
+    left: 10px;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s;
+} 
+
+.panoyakopyala
+{
+    cursor: pointer;
+}
+
+.acilis p
+{
+    position: absolute;
+    bottom: 0;
+}
+
+.darkbg
+{
+    background-color: rgb(44, 52, 63);
+    color: white;
+    transition: 0.1s;
+}
+
+.darkbg a
+{
+    color: white;
+}
+
+.kisitla
+{
+    width: 350px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: grey;
+}
+
+.desc
+{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+input, textarea, select, option
+{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #181f2b;
+    color: white;
+}
+
+*:focus
+{
+    outline: 0;
+}
+
+.aramoba
+{
+    border: none; 
+    background-color: #00000000; 
+    color: white;
+    transition: 1s;
+}
+
+.aramoba:focus
+{
+    border-bottom: 1px solid #fff;
+}
+
+.forma
+{
+    border: none; 
+    border-bottom: 1px solid #fffff2;
+    background-color: #00000000; 
+    color: white;
+}
+
+.lightbg
+{
+    background-color: rgb(244, 245, 245);
+    color: black;
+    transition: 0.1s;
+}
+
+.lightbg a
+{
+    color: black;
+}
+
+input
+{
+    background-color: wheat;
+    color: white;
+}
+
+.checkboxdark 
+{
+    opacity: 0;
+    position: absolute;
+}
+  
+.label 
+{
+    width: 50px;
+    height: 26px;
+    display: flex;
+    border-radius:50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    transform: scale(1.5);
+}
+
+.ball 
+{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+}
+
+
+.fa-moon {
+    color: pink;
+}
+
+.fa-sun {
+    color: yellow;
+}
+
+.avator 
+{
+    border-radius:100px;
+    width:48px;
+    height:48px;
+    margin-right: 15px;
+}
+
+.avatora
+{
+    border-radius:100px;
+    width:30px;
+    height:30px;
+    margin-right: 7px;
+}
+
+.post-wrap 
+{
+    width:100%;
+    margin: 0 auto;
+    border-radius:3px;
+    padding-top: 15px;
+}
+
+.post-header 
+{
+    display: flex;
+    align-items: flex-start;
+    font-size:14px;
+}
+
+.post-header-info 
+{
+    font-weight:bold;
+}
+
+.post-header-info span 
+{
+    font-weight:normal;
+    margin-left: 5px;
+}
+
+.post-header-info p 
+{
+    font-weight:normal;
+    margin-top: 5px;
+}
+
+.dropmenu
+{
+    z-index: 997;
+    position: absolute;
+    right:25px;
+    cursor: pointer;
+}
+
+.dropmenulist
+{
+    list-style: none;
+    position: absolute;
+    border-radius: 10px;
+    right: 10px;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: #7e68ad;
+    display: none;
+}
+
+.dropmenulist li
+{
+    cursor: pointer;
+}
+
+.pagebtncolor
+{
+    color: #7e68ad;
+}
+
+.pcard
+{
+    background-color: rgb(44, 52, 63);
+    border:none;
+}
+
+.card
+{
+    background-color: rgb(44, 52, 63);
+    border: none;
+}
+
+
+.navmob ul li a
+{
+    color: black;
+}
+
+.cevapcount
+{
+    border-radius:5px; 
+    border:1px solid #c0afe5; 
+    color: #c0afe5; 
+    font-size:11px;  
+    padding:5px;
+}
+
+.navbar
+{
+    color: white;
+    border-bottom: 1px solid #0000006a;
+}
+
+.buttonprf
+{
+    background-color: #5F4B8B;
+    color: white;
+    height: 33px;
+    border: none;
+    padding: 5px 12px;
+    transition: 0.3s;
+    border: 1px solid #5F4B8B;
+}
+
+.buttonprf:hover
+{
+    background-color: #3f335a;
+    border: 1px solid #3f335a;
+    cursor: pointer;
+    color: white;
+}
+
+.buttonprfactive
+{
+    border: none;
+    border-bottom: 2px solid #5F4B8B;
+    padding: 5px 12px;
+    color: white;
+    background-color: #5F4B8B;
+    transition: 0.3s;
+}
+
+.buttonprfactive:hover, .buttonprfunactive:hover
+{
+    cursor: pointer;
+    background-color: #5F4B8B;
+}
+
+.buttonprfactive:focus, .buttonprfunactive:focus
+{
+    outline: 0;
+}
+
+.buttonprfunactive
+{
+    border: none;
+    border-bottom: 2px solid #5F4B8B;
+    padding: 5px 12px;
+    background-color: #00000000;
+    color: white;
+    transition: 0.3s;
+}
+
+.rezlei
+{
+    color: white;
+}
+
+.rezlendi
+{
+    color: #9879db;
+}
+
+.dropmenukapa
+{
+    display: none;
+}
+
+
+.uninfo
+{
+    color: cornflowerblue;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+  }
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.spandisplay
+{
+    display: none;
+}
+
+.logodisplay
+{
+    display: none;
+}
+
+.logodisplayb
+{
+    display: block;
+}
+
+.navwidth
+{
+    width: 85px;
+}
+
+
+.soruindex
+{
+    font-size:15px;
+}
+
+#avatarfile
+{
+    border: none;
+    background-color: #FFD600;
+    display: none;
+}
+
+.custom-file-upload
+{
+    color:cornflowerblue;
+    cursor: pointer;
+}
+
+.soruindex::first-letter
+{
+    text-transform:uppercase;
+}
+
+.soruindexbild{
+    float:left;
+    font: normal 600 15px/20px;
+}
+
+.aramob
+{
+    display: none;
+}
+
+.activebtn
+{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+    padding:5px;
+    border:none;
+}
+
+.activebtn:focus
+{
+    padding:5px;
+    background-color: white;
+    border:none;
+    outline:0;
+}
+
+.activebtn:active
+{
+    padding:5px;
+    background-color: white;
+    border:none;
+    outline:0;
+}
+
+.btnara
+{
+    background-color: black;
+    color:white;
+    padding:5px;
+    border-radius:5px;
+    border:1px solid white;
+}
+
+.btnara:hover
+{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.aradeskdiv
+{
+    width: 0;
+    opacity: 0;
+    border-right: 1px solid #0000006a;
+    transition: 0.3s;
+}
+
+.navdesk
+{
+    font-size:18px;
+    z-index:9998;
+    border-right: 1px solid #0000006a;
+}
+
+.logo
+{
+    display: none;
+}
+
+.navmob
+{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    display: none;
+}
+
+.postMob
+{
+    display: none;
+}
+
+.navmobust
+{
+    display: none;
+}
+
+
+.login
+{
+    width:50%;
+    padding:50px;
+    border:1px solid #5f5f5f38;
+    justify-content: center;
+}
+
+.login input
+{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.bodya
+{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin:0;
+    z-index: 1000;
+}
+
+.container
+{
+    width: 800px;
+}
+
+.bildirimlerpanel
+{
+    width: 0;
+    opacity: 0;
+    transition: 0.3s;
+    border-right: 1px solid #000000;
+}
+
+.profilpopbac
+{
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    top: 0;
+    transition: 0.2s;
+    left: 0;
+    width:100%;
+    height:100%;
+}
+
+.profilpop
+{
+    z-index: 9999;
+    position: relative;
+    width:50%;
+    background-color: rgb(60, 71, 86);
+    padding: 30px 50px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.unibilgibac
+{
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    top: 0;
+    transition: 0.2s;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.unibilgipop
+{
+    z-index: 9999;
+    position: relative;
+    width:50%;
+    padding: 30px 50px;
+    background-color: rgb(60, 71, 86);
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.pop-container
+{
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    top: 0;
+    transition: 0.2s;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.pop
+{
+    z-index: 9999;
+    position: relative;
+    width:600px;
+    max-width:100%;
+    padding: 30px 50px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.pop h2
+{
+    margin: 0;
+    font-size:18px;
+    padding-bottom: 15px;
+}
+
+.pop p
+{
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.soruPop
+{
+    display: none;
+}
+
+.aniPop
+{
+    display: none;
+}
+
+.sorumob
+{
+    display: none;
+}
+
+.animob
+{
+    display: none;
+}
+
+.paylasim
+{
+    display: none;
+}
+
+
+
+/* OYLAMA */
+
+.ratingp {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center
+}
+
+.ratingp>input {
+    display: none
+}
+
+.ratingp>label {
+    position: relative;
+    width: 1em;
+    font-size: 50px;
+    cursor: pointer;
+    color: gray;
+}
+
+.ratingp>label::before {
+    content: "\2605";
+    position: absolute;
+    opacity: 0;
+    color: #FFD600;
+}
+
+.ratingp>label:hover:before,
+.ratingp>label:hover~label:before {
+    opacity: 1 !important;
+}
+
+.ratingp>input:checked~label:before {
+    opacity: 1;
+}
+
+.ratingp:hover>input:checked~label:before {
+    opacity: 0.4;
+}
+
+
+/* OY LİSTELEME */
+
+.degerlen
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rating 
+{
+    width: 120px;
+    height: 24px;
+    position: relative;
+}
+
+.rating progress.rating-bg 
+{
+    -webkit-appearance: none;
+    -moz-appearence: none;
+    appearance: none;
+    border: none;
+    display: inline-block;
+    height: 24px;
+    width: 100%;
+    color: orange;
+}
+
+.rating progress.rating-bg::-moz-progress-bar 
+{
+    background-color: orange;
+}
+
+.rating svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.example-menu
+{
+    cursor: pointer;
+}
+
+.anilaruser
+{
+    display: none;
+}
+
+.mobbild
+{
+    display: none;
+}
+
+#sonuclarmob
+{
+    margin-top: 50px;
+    padding-bottom: 70px;
+    padding-top: 20px;
+    overflow-y: auto;
+    position: absolute;
+    z-index: 998;
+    width: 100%;
+    height: 100vh;
+    left:0;
+    display: none;
+}
+
+
+/* mobil */
+@media only screen and (max-width: 1322px) {
+
+    .profilpopbac
+    {
+        background-color: #00000066;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        opacity: 0;
+        pointer-events: none;
+        transition: 0.3s;
+        z-index: 99999;
+    }
+
+    .profilpop
+    {
+        position: fixed;
+        border-radius: 30px 30px 0 0;
+        width: 100%;
+        max-height: 50%;
+        left: 0;
+        bottom: 0;
+        background-color: rgb(60, 71, 86);
+    }
+
+    .unibilgibac
+    {
+        background-color: #00000066;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        opacity: 0;
+        pointer-events: none;
+        transition: 0.3s;
+        z-index: 99999;
+    }
+
+    .unibilgipop
+    {
+        position: fixed;
+        border-radius: 30px 30px 0 0;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        bottom: 0;
+        background-color: rgb(60, 71, 86);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .sozles
+    {
+        display: block;
+    }
+
+    .mobmen 
+    {
+        display: block;
+    }
+
+    .kisitla
+    {
+        width: 220px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        color: grey;
+    }
+
+    .foot
+    {
+        display: none;
+    }
+
+    .sorumob
+    {
+        display: block;
+    }
+
+    .faba
+    {
+        height: 56px;
+        width: 56px;
+        background-color: #5F4B8B;
+        color: white;
+        display: flex;
+        padding: 24px;
+        gap: 24px;
+        border-radius: 24px;
+        
+        position: absolute;
+
+        bottom: 70px;
+        right: 15px;
+
+        overflow: hidden;
+        
+        transition: width 300ms;
+    }
+
+    .faba.active
+    {
+        width: 150px;
+    }
+
+    .plus
+    {
+        transition: transform 200ms;
+    }
+
+    .faba.active .plus
+    {
+        transform: rotate(45deg);
+    }
+
+    .item
+    {
+        display: none;
+    }
+
+    .faba.active .item
+    {
+        display: inline;
+    }
+
+    .animob
+    {
+        display: block;
+    }
+
+    .postMob i
+    {
+        background-color: #5F4B8B;
+    }
+
+
+    .container
+    {
+        width:95%;
+    }
+
+    .deskbild
+    {
+        display: none;
+    }
+
+    .mobbild
+    {
+        display: block;
+    }
+
+    .sidebar
+    {
+        display: none;
+    }
+
+    .postMob
+    {
+        position: fixed;
+        bottom:0px;
+        right: 0;
+        display:block;
+        z-index: 999;
+        margin-right: 15px;
+        margin-bottom: 100px;
+        border:none;
+        background-color: #5F4B8B;
+        padding: 20px;
+        cursor: pointer;
+        border-radius: 100px;
+        box-shadow: 0 2px 7px rgba(0, 0, 0, 1);
+    }
+
+    .pop
+    {
+        border-radius: 0px;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .aramobiptal
+    {
+        visibility: hidden;
+        position: absolute;
+        margin-left:10px;
+        opacity: 0;
+        transition: 0.2s;
+    }
+
+    .aradeskdiv
+    {
+        display: none;
+    }
+
+    .aramoba
+    {
+        width: 100%;
+        transition: 0.3s;
+    }
+
+    .bildirimlerpanel
+    {
+        display: none;
+    }
+
+    .aramob
+    {
+        display: block;
+    }
+
+    .navdesk
+    {
+        opacity: 0;
+        pointer-events: none;
+    }
+    .navmob
+    {
+        display: block;
+        box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
+    }
+    .navmobust
+    {
+        z-index:999;
+        display: block;
+        box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
+    }
+
+    .chatbox
+    {
+        height: 100%;
+    }
+
+    .msgform
+    {
+        position: fixed;
+        bottom: 50px;
+        width: 100%;
+        left: 0;
+        right: 0;
+        padding: 10px;
+        background-color: rgb(44, 52, 63);
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+
+    .nav-link span
+    {
+        display: none;
+    }
+
+    .tema
+    {
+        display: none;
+    }
+
+    .nav
+    {
+        width: 85px;
+    }
+    .logo
+    {
+        display: block;
+    }
+    .logo-text
+    {
+        display: none;
+    }
+}
+
